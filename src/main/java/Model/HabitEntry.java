@@ -28,5 +28,8 @@ public class HabitEntry {
         @ManyToOne
         @JoinColumn(name = "user_id")
         private User user;
-    }
+
+        public void setUser(User user) {
+        }
+}
 
