@@ -2,7 +2,8 @@ package Model;
 
 import jakarta.persistence.*;
 import lombok.*;
-
+@Getter
+@Setter
 @Entity
 @Data
 @NoArgsConstructor
