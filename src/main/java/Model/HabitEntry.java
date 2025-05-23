@@ -8,7 +8,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @Builder
 
-public class goodHabits {
+public class HabitEntry {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
